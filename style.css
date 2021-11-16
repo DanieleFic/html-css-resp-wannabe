@@ -80,45 +80,42 @@ img {
 
 
 @media screen and (max-width: 420px) {
-  
+  /* BLOCCO LEZIONI SMARTPHONE */
   .row{
     margin: 0;
     font-size: 28px;
   }
-
   #lezioni .row {
-    margin: 0;
     padding: 10px;
     background-color: rgb(242, 242, 205);
   }
   #lezioni .row>.left{
     width: 100%;
-    background-color: rgb(242, 242, 205);
     padding-bottom: 20px;
   }
   #lezioni .row>.right{
     width: 100%;
-    background-color: rgb(242, 242, 205);
     padding-bottom: 20px;
+  }
+  /* BLOCCO PERCHè SMARTPHONE */
+  #steps .row{
+    background-color: white;
   }
   #steps .row>.left{
     width: 100%;
     padding-bottom: 20px;
-    background-color: white;
   }
   #steps .row>.central{
     width: 100%;
     padding-bottom: 20px;
-    background-color: white;
   }
   #steps .row>.right{
     width: 100%;
     padding-bottom: 20px;
-    background-color: white;
   }
+  /* BLOCCO STEPS SMARTPHONE */
   #why .row{
     background-color: rgb(242, 242, 205);
-    margin: 0;
     padding: 10px;
   }
 }

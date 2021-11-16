@@ -78,13 +78,64 @@ img {
 }
 
 
+@media screen and (min-width: 421px) and (max-width: 1366px) {
+   
+  .row{
+    margin: 0%;
+    width: 100%;
+    padding: 25px;
+    font-size: 28px;
+  }
+  #lezioni .row {
+    background-color: rgb(242, 242, 205);
+  }
+  #lezioni .row>.left{
+    width: 50%;
+
+  }
+  #lezioni .row>.right{
+    width: 50%;
+  } 
+  #steps .row{
+    background-color: white;
+  }
+  #steps .row>.left{
+    float: left;
+    width: 50%;
+  }
+  #steps .row>.central{
+    float: left;
+    width: 50%;
+  }
+  #steps .row>.right{
+    width: 100%;
+  }
+  #why .row{
+    background-color: rgb(242, 242, 205);
+  }
+
+  #why.row>.first{
+    float: left;
+    width: 50%;
+  }
+  #why.row>.second{
+    float: left;
+    width: 50%;
+  }
+  #why.row>.third{
+    width: 100%;
+  }
+}
+
 
 @media screen and (max-width: 420px) {
   /* BLOCCO LEZIONI SMARTPHONE */
+  
   .row{
     margin: 0;
-    padding: 25px;
-    font-size: 28px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
   }
   #lezioni .row {
     background-color: rgb(242, 242, 205);
@@ -113,3 +164,5 @@ img {
     background-color: rgb(242, 242, 205);
   }
 }
+
+

@@ -113,39 +113,3 @@ img {
     background-color: rgb(242, 242, 205);
   }
 }
-
-@media screen and (min-width: 420px) and (max-width: 1366px) {
-  /* BLOCCO LEZIONI TABLET */
-  .row{
-    margin: 0%;
-    width: 100%;
-    padding: 25px;
-    font-size: 28px;
-  }
-  #lezioni .row {
-    background-color: rgb(242, 242, 205);
-  }
-  #lezioni .row>.left{
-    width: 100%;
-  }
-  #lezioni .row>.right{
-    width: 100%;
-  }
-  /* BLOCCO PERCHè TABLET */
-  #steps .row{
-    background-color: white;
-  }
-  #steps .row>.left{
-    width: 100%;
-  }
-  #steps .row>.central{
-    width: 100%;
-  }
-  #steps .row>.right{
-    width: 100%;
-  }
-  /* BLOCCO STEPS TABLET */
-  #why .row{
-    background-color: rgb(242, 242, 205);
-  }
-}

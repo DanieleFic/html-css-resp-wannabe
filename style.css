@@ -119,6 +119,12 @@ img {
     float: left;
     width: 50%;
   }
+
+  .row .first hr{
+    margin-top: 66px;
+    
+  }
+
   #why .row>.second{
     float: left;
     width: 50%;

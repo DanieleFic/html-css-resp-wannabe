@@ -85,7 +85,7 @@ img {
     margin: 0%;
     width: 100%;
     padding: 25px;
-    font-size: 28px;
+    font-size: 20px;
   }
   /* BLOCCO LEZIONI TABLET */
   #lezioni .row {
@@ -123,7 +123,7 @@ img {
   }
 
   .row .first hr{
-    margin-top: 66px;
+    margin-top: 23px;
     
   }
 

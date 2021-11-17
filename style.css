@@ -87,6 +87,7 @@ img {
     padding: 25px;
     font-size: 28px;
   }
+  /* BLOCCO LEZIONI TABLET */
   #lezioni .row {
     background-color: rgb(242, 242, 205);
   }
@@ -97,7 +98,7 @@ img {
   #lezioni .row>.right{
     width: 50%;
   } 
-  
+  /* BLOCCO PERCHè TABLET */
   #steps .row{
     background-color: white;
   }
@@ -112,7 +113,7 @@ img {
   #steps .row>.right{
     width: 100%;
   }
-
+  /* BLOCCO STEPS TABLET */
   #why .row{
     background-color: rgb(242, 242, 205);
   }
@@ -135,11 +136,15 @@ img {
     width: 100%;
     height: 50%;
   }
+  img{
+    height: 125px;
+    padding: 15px;
+  }
 }
 
 
 @media screen and (max-width: 420px) {
-  /* BLOCCO LEZIONI SMARTPHONE */
+  
   
   *{
     margin: 0;
@@ -153,6 +158,7 @@ img {
     width: 100%;
     font-size: 15px;
   }
+  /* BLOCCO LEZIONI SMARTPHONE */
   #lezioni .row {
     background-color: rgb(242, 242, 205);
   }
@@ -178,6 +184,11 @@ img {
   /* BLOCCO STEPS SMARTPHONE */
   #why .row{
     background-color: rgb(242, 242, 205);
+  }
+
+  img{
+    height: 100px;
+    padding: 15px;
   }
 }
 
